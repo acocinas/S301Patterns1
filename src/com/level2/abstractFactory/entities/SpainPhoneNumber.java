@@ -4,7 +4,7 @@ import com.level2.abstractFactory.interfaces.PhoneNumber;
 
 public class SpainPhoneNumber implements PhoneNumber {
 
-    private final String internationalPrefix = "+34";
+    private final String internationalPrefix = "+34 ";
     private final String phoneNumber;
 
     public SpainPhoneNumber (String phoneNumber){

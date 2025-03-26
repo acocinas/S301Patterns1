@@ -20,29 +20,9 @@ public class AddressBook {
         Contact contact = new Contact(address, phone);
         contacts.add(contact);
     }
-
-    public void printContacts(){
+    public void printContacts() {
         System.out.println("Contactos: ");
-        for (Contact contact : contacts){
-            System.out.println(contact);
-            System.out.println("-------------------------");
-        }
+        contacts.forEach(System.out::println);
+        System.out.println("-------------------------");
     }
-
-//    public void addPhoneNumber(String phoneNumber){
-//        PhoneNumber phone = factory.createPhoneNumber(phoneNumber);
-//        phoneNumbers.add(phone);
-//    }
-//
-//    public void printContacts(){
-//        System.out.println("Direcciones: ");
-//        for (Address address : addresses){
-//            System.out.println("* " + address.getAddress());
-//        }
-//        System.out.println("\nNúmeros de teléfono: ");
-//        for (PhoneNumber phone : phoneNumbers){
-//            System.out.println("* "+ phone.getPhoneNumber());
-//        }
-//   }
-
 }

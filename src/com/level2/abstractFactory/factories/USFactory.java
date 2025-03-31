@@ -6,15 +6,15 @@ import com.level2.abstractFactory.model.USPhoneNumber;
 
 public class USFactory implements AddressBookFactory {
     @Override
-    public Address createAddress(String... details){
+    public Address createAddress(Address address){
         /**
-         * @param details[0] = streetNumber
-         * @param details[1] = streetName
-         * @param details[2] = city
-         * @param details[3] = state
-         * @param details[4] = zipcode
+         * streetNumber
+         * streetName
+         * city
+         * state
+         * zipcode
          */
-        return new USAddress(details[0],details[1],details[2],details[3],details[4]);
+        return new USAddress("","","","","");
     }
 
     @Override

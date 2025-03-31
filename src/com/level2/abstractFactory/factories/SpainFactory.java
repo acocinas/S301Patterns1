@@ -6,14 +6,14 @@ import com.level2.abstractFactory.model.SpainPhoneNumber;
 
 public class SpainFactory implements AddressBookFactory {
     @Override
-    public Address createAddress(String... details){
+    public Address createAddress(Address address){
         /**
-         * @param details[0] = streetName
-         * @param details[1] = streetNumber
-         * @param details[2] = postCode
-         * @param details[3] = city
+         * streetName
+         * streetNumber
+         * postCode
+         * city
          */
-        return new SpainAddress(details[0],details[1],details[2],details[3]);
+        return new SpainAddress("", "", "", "");
     }
 
     @Override

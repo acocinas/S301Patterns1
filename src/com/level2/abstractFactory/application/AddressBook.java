@@ -1,6 +1,7 @@
-package com.level2.abstractFactory.entities;
+package com.level2.abstractFactory.application;
 //Paso 5
 import com.level2.abstractFactory.interfaces.*;
+import com.level2.abstractFactory.model.Contact;
 
 import java.util.*;
 
@@ -13,10 +14,8 @@ public class AddressBook {
         this.factory = factory;
     }
 
-    public void addContact(String[] addressDetails, String phoneNumber){
-        Address address = factory.createAddress(addressDetails);
+    public void addContact(Address address, String phoneNumber){
         PhoneNumber phone = factory.createPhoneNumber(phoneNumber);
-
         Contact contact = new Contact(address, phone);
         contacts.add(contact);
     }

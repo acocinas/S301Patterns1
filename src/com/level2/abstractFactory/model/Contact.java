@@ -1,4 +1,4 @@
-package com.level2.abstractFactory.entities;
+package com.level2.abstractFactory.model;
 
 import com.level2.abstractFactory.interfaces.*;
 

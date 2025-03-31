@@ -1,4 +1,4 @@
-package com.level2.abstractFactory.entities;
+package com.level2.abstractFactory.model;
 //paso 2
 import com.level2.abstractFactory.interfaces.Address;
 

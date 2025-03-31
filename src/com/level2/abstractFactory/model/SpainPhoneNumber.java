@@ -1,13 +1,13 @@
-package com.level2.abstractFactory.entities;
+package com.level2.abstractFactory.model;
 //Paso 2
 import com.level2.abstractFactory.interfaces.PhoneNumber;
 
-public class USPhoneNumber implements PhoneNumber {
+public class SpainPhoneNumber implements PhoneNumber {
 
-    private final String internationalPrefix = "+1 ";
+    private final String internationalPrefix = "+34 ";
     private final String phoneNumber;
 
-    public USPhoneNumber (String phoneNumber){
+    public SpainPhoneNumber (String phoneNumber){
         this.phoneNumber = phoneNumber;
     }
     @Override

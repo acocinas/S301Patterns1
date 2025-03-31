@@ -1,6 +1,8 @@
-package com.level2.abstractFactory.entities;
+package com.level2.abstractFactory.factories;
 //paso 4
 import com.level2.abstractFactory.interfaces.*;
+import com.level2.abstractFactory.model.USAddress;
+import com.level2.abstractFactory.model.USPhoneNumber;
 
 public class USFactory implements AddressBookFactory {
     @Override

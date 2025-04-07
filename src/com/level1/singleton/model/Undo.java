@@ -1,4 +1,4 @@
-package com.level1.singleton.entities;
+package com.level1.singleton.model;
 
 import java.util.ArrayList;
 import java.util.List;

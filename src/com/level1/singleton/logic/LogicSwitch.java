@@ -1,6 +1,6 @@
-package com.level1.singleton.model;
+package com.level1.singleton.logic;
 
-import com.level1.singleton.entities.Undo;
+import com.level1.singleton.model.Undo;
 
 public class LogicSwitch {
 

@@ -1,6 +1,6 @@
-package com.level1.singleton.controller;
+package com.level1.singleton.application;
 
-import com.level1.singleton.model.LogicSwitch;
+import com.level1.singleton.logic.LogicSwitch;
 
 import java.util.Scanner;
 
